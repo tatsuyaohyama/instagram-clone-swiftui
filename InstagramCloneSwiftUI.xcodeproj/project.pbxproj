@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4EC11ADB288011AE007F065C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC11ADA288011AE007F065C /* Assets.xcassets */; };
 		4EC11AE0288011C9007F065C /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC11ADD288011C9007F065C /* ImageUploader.swift */; };
 		4EC11AE1288011C9007F065C /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC11ADE288011C9007F065C /* UserService.swift */; };
 		4EC11AE2288011C9007F065C /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC11ADF288011C9007F065C /* PostService.swift */; };
@@ -69,11 +68,11 @@
 		4EC11B6728801274007F065C /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 4EC11B6628801274007F065C /* FirebaseStorageCombine-Community */; };
 		4EC11B6A28801323007F065C /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4EC11B6928801323007F065C /* SDWebImageSwiftUI */; };
 		4EC11B6D28801398007F065C /* PartialSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 4EC11B6C28801398007F065C /* PartialSheet */; };
+		4EC11B712880E2D9007F065C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC11B702880E2D8007F065C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4EC11AC928801193007F065C /* InstagramCloneSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramCloneSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EC11ADA288011AE007F065C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../develop/instagram-clone-swiftui/InstagramCloneSwiftUI/Assets.xcassets"; sourceTree = "<group>"; };
 		4EC11ADD288011C9007F065C /* ImageUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		4EC11ADE288011C9007F065C /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		4EC11ADF288011C9007F065C /* PostService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
@@ -126,6 +125,7 @@
 		4EC11B24288011DE007F065C /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		4EC11B25288011DE007F065C /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		4EC11B26288011DE007F065C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4EC11B702880E2D8007F065C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,7 +167,7 @@
 		4EC11ACB28801193007F065C /* InstagramCloneSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				4EC11ADA288011AE007F065C /* Assets.xcassets */,
+				4EC11B702880E2D8007F065C /* Assets.xcassets */,
 				4EC11B26288011DE007F065C /* GoogleService-Info.plist */,
 				4EC11B20288011DE007F065C /* InstagramCloneSwiftUIApp.swift */,
 				4EC11AE3288011DD007F065C /* Preview Content */,
@@ -459,7 +459,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EC11B27288011DE007F065C /* Preview Assets.xcassets in Resources */,
-				4EC11ADB288011AE007F065C /* Assets.xcassets in Resources */,
+				4EC11B712880E2D9007F065C /* Assets.xcassets in Resources */,
 				4EC11B57288011DE007F065C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
